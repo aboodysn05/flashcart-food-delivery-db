@@ -53,7 +53,3 @@ Run the scripts in `sql/oracle/` in order (01 → 07) in SQL*Plus, SQL Developer
 - `07_review_and_ddl_triggers.sql` test line `DROP TABLE Order;` is invalid syntax (`"Order"` needs quotes).
 - Minor differences between the physical diagram and the DDL (e.g. `Review.DriverID` nullability, GPS coordinate precision).
 - Sample passwords are placeholders (`hash_pass_01` …), not real hashes.
-
-## License
-
-Add a license of your choice before publishing.
