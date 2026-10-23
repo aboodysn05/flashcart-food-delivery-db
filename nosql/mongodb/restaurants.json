@@ -1,0 +1,221 @@
+[
+  {
+    "restaurant_id": 1,
+    "restaurant_name": "Shawerma House",
+    "cuisine_type": "Middle Eastern",
+    "phone_number": "+962799990001",
+    "email": "contact@shawermahouse.com",
+    "status": "Active",
+    "rating": 4.6,
+    "operating_hours": [
+      { "day": "Monday", "open": "09:00", "close": "23:00" },
+      { "day": "Tuesday", "open": "09:00", "close": "23:00" },
+      { "day": "Wednesday", "open": "09:00", "close": "23:00" },
+      { "day": "Thursday", "open": "09:00", "close": "23:00" },
+      { "day": "Friday", "open": "12:00", "close": "01:00" },
+      { "day": "Saturday", "open": "09:00", "close": "23:00" },
+      { "day": "Sunday", "open": "09:00", "close": "23:00" }
+    ],
+    "menu_categories": [
+      {
+        "category_name": "Main Course",
+        "description": "Hearty main dishes",
+        "items": [
+          {
+            "item_id": 1,
+            "item_name": "Chicken Shawerma Plate",
+            "description": "Grilled chicken, garlic sauce, pickles, fries",
+            "base_price": 5.99,
+            "preparation_time_mins": 12,
+            "is_available": true,
+            "item_type_details": {
+              "size": ["Normal", "Double", "Triple"],
+              "spiciness": ["Normal", "Spicy"]
+            }
+          },
+          {
+            "item_id": 2,
+            "item_name": "Beef Shawerma Sandwich",
+            "description": "Tender beef, tahini, vegetables, wrapped",
+            "base_price": 4.49,
+            "preparation_time_mins": 8,
+            "is_available": true,
+            "item_type_details": {
+              "size": ["Normal", "Double", "Triple"],
+              "spiciness": ["Normal", "Spicy"]
+            }
+          }
+        ]
+      },
+      {
+        "category_name": "Appetizers",
+        "description": "Starters and small plates",
+        "items": [
+          {
+            "item_id": 3,
+            "item_name": "Falafel Platter",
+            "description": "Crispy falafel, hummus, salad",
+            "base_price": 3.99,
+            "preparation_time_mins": 10,
+            "is_available": true,
+            "item_type_details": { "type": "Standard" }
+          }
+        ]
+      },
+      {
+        "category_name": "Beverages",
+        "description": "Soft drinks, juices, etc.",
+        "items": [
+          {
+            "item_id": 10,
+            "item_name": "Soft Drink",
+            "description": "Coke, Sprite, or Fanta",
+            "base_price": 1.99,
+            "preparation_time_mins": 1,
+            "is_available": true,
+            "item_type_details": { "type": "Standard" }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "restaurant_id": 2,
+    "restaurant_name": "Pizza Italia",
+    "cuisine_type": "Italian",
+    "phone_number": "+962799990002",
+    "email": "info@pizzaitalia.com",
+    "status": "Active",
+    "rating": 4.8,
+    "operating_hours": [
+      { "day": "Monday", "open": "10:00", "close": "22:00" },
+      { "day": "Tuesday", "open": "10:00", "close": "22:00" },
+      { "day": "Wednesday", "open": "10:00", "close": "22:00" },
+      { "day": "Thursday", "open": "10:00", "close": "22:00" },
+      { "day": "Friday", "open": "11:00", "close": "00:00" },
+      { "day": "Saturday", "open": "10:00", "close": "22:00" },
+      { "day": "Sunday", "open": "10:00", "close": "22:00" }
+    ],
+    "menu_categories": [
+      {
+        "category_name": "Main Course",
+        "description": "Hearty main dishes",
+        "items": [
+          {
+            "item_id": 4,
+            "item_name": "Margherita Pizza",
+            "description": "Fresh mozzarella, basil, tomato sauce",
+            "base_price": 8.99,
+            "preparation_time_mins": 15,
+            "is_available": true,
+            "item_type_details": {
+              "crust_types": ["Thin Crust", "Thick Crust", "Stuffed Crust"],
+              "available_sizes": ["Small", "Medium", "Large"]
+            }
+          },
+          {
+            "item_id": 5,
+            "item_name": "Pepperoni Pizza",
+            "description": "Spicy pepperoni, mozzarella, tomato sauce",
+            "base_price": 10.49,
+            "preparation_time_mins": 15,
+            "is_available": true,
+            "item_type_details": {
+              "crust_types": ["Thin Crust", "Thick Crust", "Stuffed Crust"],
+              "available_sizes": ["Small", "Medium", "Large"]
+            }
+          },
+          {
+            "item_id": 6,
+            "item_name": "Four Cheese Pizza",
+            "description": "Mozzarella, parmesan, gorgonzola, ricotta",
+            "base_price": 11.99,
+            "preparation_time_mins": 18,
+            "is_available": true,
+            "item_type_details": {
+              "crust_types": ["Thin Crust", "Thick Crust", "Stuffed Crust"],
+              "available_sizes": ["Small", "Medium", "Large"]
+            }
+          }
+        ]
+      },
+      {
+        "category_name": "Desserts",
+        "description": "Sweet treats",
+        "items": [
+          {
+            "item_id": 11,
+            "item_name": "Tiramisu",
+            "description": "Classic Italian dessert",
+            "base_price": 4.49,
+            "preparation_time_mins": 5,
+            "is_available": true,
+            "item_type_details": { "type": "Standard" }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "restaurant_id": 3,
+    "restaurant_name": "Burger Planet",
+    "cuisine_type": "American",
+    "phone_number": "+962799990003",
+    "email": "hello@burgerplanet.com",
+    "status": "Active",
+    "rating": 4.7,
+    "operating_hours": [
+      { "day": "Monday", "open": "11:00", "close": "00:00" },
+      { "day": "Tuesday", "open": "11:00", "close": "00:00" },
+      { "day": "Wednesday", "open": "11:00", "close": "00:00" },
+      { "day": "Thursday", "open": "11:00", "close": "00:00" },
+      { "day": "Friday", "open": "11:00", "close": "01:00" },
+      { "day": "Saturday", "open": "11:00", "close": "00:00" },
+      { "day": "Sunday", "open": "11:00", "close": "00:00" }
+    ],
+    "menu_categories": [
+      {
+        "category_name": "Main Course",
+        "description": "Hearty main dishes",
+        "items": [
+          {
+            "item_id": 7,
+            "item_name": "Classic Cheeseburger",
+            "description": "Beef patty, cheddar, lettuce, tomato, sauce",
+            "base_price": 7.99,
+            "preparation_time_mins": 12,
+            "is_available": true,
+            "item_type_details": {
+              "allowed_cook_times": ["Medium", "Medium Well", "Well Done"],
+              "extra_toppings": ["Cheese", "Bacon", "Mushroom"]
+            }
+          },
+          {
+            "item_id": 8,
+            "item_name": "Double Bacon Burger",
+            "description": "Two patties, bacon, cheese, caramelized onion",
+            "base_price": 10.99,
+            "preparation_time_mins": 15,
+            "is_available": true,
+            "item_type_details": {
+              "allowed_cook_times": ["Medium", "Medium Well", "Well Done"],
+              "extra_toppings": ["Cheese", "Bacon", "Mushroom"]
+            }
+          },
+          {
+            "item_id": 9,
+            "item_name": "Veggie Burger",
+            "description": "Plant-based patty, avocado, lettuce, vegan sauce",
+            "base_price": 8.49,
+            "preparation_time_mins": 10,
+            "is_available": true,
+            "item_type_details": {
+              "allowed_cook_times": ["Medium", "Medium Well", "Well Done"],
+              "extra_toppings": ["Cheese", "Bacon", "Mushroom"]
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
